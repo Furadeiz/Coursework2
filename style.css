@@ -50,6 +50,33 @@
 }
 
 
+.animationRunningText{
+    font-size: 30px;
+    font-weight: 700;
+    height: 90px;
+    width: 100%;
+    overflow:hidden;
+    background:#BCEC30;
+    position: absolute;
+    top: 710px;
+}
+.animationRunningText__scrol{
+    display: inline-block;
+    white-space: nowrap;
+    animation: RunningText 20s linear infinite ;
+    margin-top: 28px;
+}
+.scrol__pozit{
+display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 51px;
+}
+.scrol__img{
+    width: 36px;
+    height: 36px;
+}
+
 .img__bigBoom{
     position: absolute;
     top: 0;

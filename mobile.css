@@ -63,6 +63,20 @@
     left: 215px;
 }
 
+.animationRunningText{
+    top: 649px;
+    font-size: 16px;
+    height: 52px;
+}
+.animationRunningText__scrol{
+    margin-top: 16px;
+}
+.scrol__img{
+    width: 19px;
+    height: 19px;
+}
+
+
 .main{
     padding-bottom: 10px;
 }
