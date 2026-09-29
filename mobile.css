@@ -1,0 +1,302 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: 'Montserrat';
+}
+.center{
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.hero__background{
+    height: 800px;
+}
+
+.hero{
+    padding-top: 196px;
+    position: relative;
+}
+
+.hero__title{
+ margin-bottom: 24px;
+ font-size: 64px;
+ font-weight: 700;
+}
+
+.hero__text{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.hero__btn{
+    width: 247px;
+    height: 66px;
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Montserrat';
+    border-radius: 60px;
+    border: 1px solid #000;
+    color: white;
+    background: #000;
+    margin-top: 48px;
+    transition: 1s;
+}
+.hero__btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+
+.img__bigBoom{
+    position: absolute;
+    top: 0;
+    left: 676px;
+    height: 800px;
+}
+.img__star2{
+    position: absolute;
+    top:94px;
+    left: 64px;
+}
+
+.img__star3{
+    position: absolute;
+    top:69px;
+    left: 154px;
+}
+
+.img__star4{
+    position: absolute;
+    top:568px;
+    left: 877px;
+}
+
+.img__star5{
+    position: absolute;
+    top:538px;
+    left: 817px;
+}
+.img__minboom{
+    display: none;
+}
+
+
+.main{
+    background: #000;
+    position: relative;
+}
+
+.img__mainBig{
+    position: absolute;
+    left: 805px;
+    top: 77px;
+}
+
+.img__main-1{
+    position: absolute;
+    left: 25px;
+    top: 770px;
+}
+
+.img__main-2{
+    position: absolute;
+    left: 40px;
+    top: 822px;
+}
+.img__main-3{
+    position: absolute;
+    top: 1563px;
+    left: 1104px;
+}
+.img__main-4{
+    position: absolute;
+    top: 1596px;
+    left: 1147px;
+}
+.img__main-5{
+    position: absolute;
+    bottom: 45px;
+    left: 1076px;
+}
+.img__main-6{
+    position: absolute;
+    bottom: 65px;
+    left: 1147px;
+}
+.main__titleMobile{
+    display: none;
+}
+.main__title{
+    color: #fff;
+    font-size: 64px;
+    font-weight: 700;
+    padding-top: 94px;
+}
+
+.main__text{
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 24px;
+    margin-bottom: 62px;
+    width: 788px;
+}
+
+.main__img{
+    border-radius: 30px;
+}
+
+
+
+.main__cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    position: relative;
+}
+.main__img_4{
+    position: absolute;
+    top: 30px;
+    left: 65px;
+}
+
+.main__card_poz{
+    position: absolute;
+    top: -36px;
+}
+
+.main__card{
+    background: #fff;
+    width: 378px;
+    height: 551px;
+    border-radius: 30px;
+    position: relative;
+}
+
+.main__card_min{
+    height: 473px;
+    width: 378px;
+}
+
+.main__card_average{
+    height: 521px;
+    width: 378px;
+}
+
+.main__number{
+    background: #f7f7f7;
+    width:108px;
+    height: 36px;
+    border-radius: 53px;
+    margin-left: 32px;
+    margin-top: 32px;
+    padding-top: 8px;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main__text-card{
+    font-size: 32px;
+    font-weight: 700;
+    margin-left: 32px;
+    margin-top: 16px;
+}
+
+.miniGame{
+    padding-bottom: 144px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.miniGame__title{
+ color: #fff;
+ font-weight: 700;
+ font-size: 64px;
+ margin-top: 96px;
+ padding-bottom: 72px;
+}
+
+.miniGame__cart{
+    background-color: #fff;
+    width: 1200px;
+    height: 500px;
+    border-radius:30px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+}
+
+.miniGame__cart_reverse{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+
+.cart{
+    margin-left: 48px;
+    margin-top: 48px;
+}
+.cart_change{
+    width: 100%;
+    margin-right: 48px;
+}
+
+.cart__title{
+    font-weight: 700;
+    font-size: 48px;
+}
+
+.cart__text{
+    font-weight: 400;
+    font-size: 24px;
+    margin-top: 24px;
+}
+
+.cart__btn{
+    color: #fff;
+    background: #000;
+    border-radius: 60px;
+    border: #000 1px solid;
+    width: 247px;
+    height: 66px;
+    margin-top: 36px;
+    font-size: 24px;
+    font-weight: 600;
+    transition: 1s;
+}
+
+.cart__btn:hover{
+    color: #000;
+    background: #fff;
+}
+
+.miniGame__img{
+    border-radius: 30px;
+}
+
+.miniGame__imgTwo{
+    position: absolute;
+    width: 384px;
+    height: 458px;
+    left: 109px;
+    top: 42px;
+}
+
+.footer{
+    background: #BDED35;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__text{
+    font-size: 24px;
+    font-weight: 600;
+}
