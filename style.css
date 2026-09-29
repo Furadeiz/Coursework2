@@ -1,0 +1,175 @@
+@media(max-width: 376px)
+{
+.center{
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.hero__background{
+    height: 700px;
+}
+
+.hero{
+    padding-top: 147px;
+    text-align: center;
+}
+
+.hero__title{
+    font-size: 40px;
+}
+
+.hero__text{
+    font-size: 16px;
+}
+
+.hero__btn{
+    margin-top: 36px;
+    width: 285px;
+    height: 55px;
+    font-size: 16px;
+}
+
+.img__bigBoom{
+    display: none;
+}
+.img__star2{
+    width: 35px;
+    height: 35px;
+    left: 37px;
+    top: 97px;
+}
+.img__star3{
+    width: 21px;
+    height: 21px;
+    left: 92px;
+    top: 64px;
+}
+.img__star4{
+    width: 39px;
+    height: 41px;
+    left: 304px;
+    top: 580px;
+}
+.img__star5{
+    width: 18px;
+    height: 18px;
+    left: 273px;
+    top: 557px;
+}
+.img__minboom{
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 215px;
+}
+
+.main{
+    padding-bottom: 10px;
+}
+
+.main__titleMobile{
+    display: block;
+    font-size: 40px;
+    font-weight: 700;
+    color: white;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+.main__card_poz{
+    position: absolute;
+    top: 0;
+}
+.main__card{
+    display: none;
+}
+.main__img{
+    width: 343px;
+}
+.main__img_4{
+    width: 223px;
+    height: 260px;
+    left: 62px;
+    top: 30px;
+}
+
+.main__title{
+    display: none;
+}
+.main__text{
+    display: none;
+}
+
+
+
+.miniGame{
+    padding-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.miniGame__title{
+    display: none;
+}
+
+.img__mainBig{
+    display: none;
+}
+.img__main-1{
+    display: none;
+}
+.img__main-2{
+    display: none;
+}
+.img__main-3{
+    display: none;
+}
+.img__main-4{
+    display: none;
+}
+.img__main-5{
+    display: none;
+}
+.img__main-6{
+    display: none;
+}
+
+.miniGame__cart{
+    flex-direction: column;
+    width: auto;
+    height:100%;
+    margin-bottom:0;
+}
+
+.miniGame__imgTwo{
+    width: 227px;
+    height: 243px;
+    left: 58px;
+    top: 33px;
+}
+
+.miniGame__img{
+    height: 284px;
+}
+
+.cart{
+    margin-top: 0;
+    width: 285px;
+}
+.cart__title{
+    font-size: 32px;
+    margin-top: 24px;
+}
+.cart__text{
+    font-size: 16px;
+    width: 285px;
+}
+.cart__btn{
+    width: 255px;
+    height: 55px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 16px;
+}
+
+}
