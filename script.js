@@ -278,3 +278,17 @@ if (!isNaN(userNumber)) {
     console.log(`Количество правельных ответов : ${counter}`);
 
     }
+
+    // мини-игра генератор случайных цветов
+    const gameSixEl = document.getElementById('gameSix');
+    const playBtn = gameSixEl.querySelector('.cart__btn');
+    function randomColorHSL () {
+        const kitten = Math.floor(Math.random() * 360);
+        const saturation = 70;
+        const lightness = 70;
+        return `hsl(${kitten},${saturation}%,${lightness}%)`;
+    }
+    playBtn.addEventListener('click', () => {
+                const color = randomColorHSL();
+        gameSixEl.style.backgroundColor = color;
+    });

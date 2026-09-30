@@ -11,7 +11,7 @@
     padding-right: calc(50% - 600px);
 }
 
-.hero__background{
+.header__background{
     height: 800px;
 }
 
@@ -311,7 +311,7 @@ display: flex;
     position: absolute;
     width: 384px;
     height: 458px;
-    left: 109px;
+    left: 710px;
     top: 42px;
 }
 
