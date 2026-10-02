@@ -7,8 +7,8 @@
     font-family: 'Montserrat';
 }
 .center{
-    padding-left: calc(50% - 600px);
-    padding-right: calc(50% - 600px);
+    padding-left: max( 20px, calc(50% - 600px));
+    padding-right: max( 20px, calc(50% - 600px));
 }
 
 .header__background{
