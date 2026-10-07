@@ -228,54 +228,54 @@ if (!isNaN(userNumber)) {
     let colorSky = prompt(`Отведте на вопрос : ${quiz[0].question} \n ${quiz[0].optons}`);
 
         if (colorSky == null || colorSky == '') {
-                console.log(('Вы прервали викторину.'));
+                alert('Вы прервали викторину.');
                 return;
             }
 
     if (colorSky == quiz[0].correctAnswer) {
-        console.log(`Ответ верный`);
+        alert(`Ответ верный`);
         counter++;
     }else if(colorSky <= 3) {
-        console.log(`Ответ не верный `);
+        alert(`Ответ не верный `);
     }else {
-        console.log('Вы ввели некоректный ответ');
+        alert('Вы ввели некоректный ответ');
     }
 
 
     let numberDay = prompt(`Отведте на вопрос : ${quiz[1].question} \n ${quiz[1].optons}`);
 
         if (numberDay == null || numberDay == '') {
-                console.log(('Вы прервали викторину.'));
+                alert('Вы прервали викторину.');
                 return;
             } 
 
     if (numberDay == quiz[1].correctAnswer) {
-        console.log(`Ответ верный`);
+        alert(`Ответ верный`);
         counter++;
     }else if(numberDay <= 3) {
-        console.log(`Ответ не верный `);
+        alert(`Ответ не верный `);
     }else {
-        console.log('Вы ввели некоректный ответ');
+        alert('Вы ввели некоректный ответ');
     }
 
 
     let numberFinger = prompt(`Отведте на вопрос : ${quiz[2].question} \n ${quiz[2].optons}`);
 
         if (numberFinger == null || numberFinger == '') {
-                console.log(('Вы прервали викторину.'));
+                alert('Вы прервали викторину.');
                 return;
             } 
 
     if (numberFinger == quiz[2].correctAnswer) {
-        console.log(`Ответ верный`);
+        alert(`Ответ верный`);
         counter++;
     }else if(numberFinger <= 3){
-        console.log(`Ответ не верный `);
+        alert(`Ответ не верный `);
     }else {
-        console.log('Вы ввели некоректный ответ');
+        alert('Вы ввели некоректный ответ');
     }
 
-    console.log(`Количество правельных ответов : ${counter}`);
+    alert(`Количество правельных ответов : ${counter}`);
 
     }
 
