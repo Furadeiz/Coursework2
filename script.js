@@ -10,11 +10,11 @@
         let answer = prompt(`Угадайте число от 1 до 100`);
             
             if (answer == '') {
-                console.log(`Вы нечего не ввели`);
+                alert(`Вы нечего не ввели`);
                 continue;
             } 
             if (answer === null) {
-                console.log(`Вы прервали игру`);
+                alert(`Вы прервали игру`);
                 return;
             }
 
@@ -26,7 +26,7 @@
             }
             else {
                 alert(`Вы угадали число`);
-                console.log(`Поздравляю`);
+                alert(`Поздравляю`);
                 return;
             }
         }
@@ -60,11 +60,11 @@
 
         let answerSum = prompt(`решите пример и напишите результат: ${taskSumAddentOne} + ${taskSumAddentTwo} = ?`);
         if(answerSum == ''){
-            console.log(`Вы нечего не ввели`);
+            alert(`Вы нечего не ввели`);
             continue;
         }
         if (answerSum == null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
         taskSumAddentResult == answerSum ? alert(`Решение верное`) : alert(`Решение не верно`);
@@ -72,11 +72,11 @@
 
         let answerSubt = prompt(`решите пример и напишите результат: ${taskSubtAddentOne} - ${taskSubtAddentTwo} = ?`);
         if(answerSubt == ''){
-            console.log(`Вы нечего не ввели`);
+            alert(`Вы нечего не ввели`);
             continue;
         }
         if (answerSubt == null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
         taskSubtAddentResult == answerSubt ? alert(`Решение верное`) : alert(`Решение не верно`);
@@ -84,11 +84,11 @@
 
         let answerMult = prompt(`решите пример и напишите результат: ${taskMultAddentOne} * ${taskMultAddentTwo} = ?`);
         if(answerMult == ''){
-            console.log(`Вы нечего не ввели`);
+            alert(`Вы нечего не ввели`);
             continue;
         }
         if (answerMult == null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
         taskMultAddentResult == answerMult ? alert(`Решение верное`) : alert(`Решение не верно`);
@@ -98,11 +98,11 @@
         let max = Math.max(taskDivisionAddentOne, taskDivisionAddentTwo);
         let answerDivision = prompt(`решите пример и напишите результат: ${max} / ${min} = ?`);
         if(answerDivision == ''){
-            console.log(`Вы нечего не ввели`);
+            alert(`Вы нечего не ввели`);
             continue;
         }
         if (answerDivision == null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
         taskDivisionAddentResult == answerDivision ? alert(`Решение верное`) : alert(`Решение не верно`);return;
@@ -117,12 +117,12 @@
         let userText = prompt(`Введите слово которое вы хотите перевернуть `);
 
         if (userText === null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
 
         if (userText === '') {
-            console.log(`Вы ничего не ввели`);
+            alert(`Вы ничего не ввели`);
             return;
         }
 
@@ -144,11 +144,11 @@
         let userAnswer = prompt(`Выверите вариант ответа 1) камень, 2) ножницы, 3) бумага`);
         
         if (userAnswer == null) {
-            console.log(`Игра прервона`);
+            alert(`Игра прервона`);
             return;
         }
         if (userAnswer == '') {
-            console.log(`Вы ничего не вели`);
+            alert(`Вы ничего не вели`);
             return;
         }
 
