@@ -77,6 +77,10 @@ display: flex;
     height: 36px;
 }
 
+.img{
+    position: relative;
+}
+
 .img__bigBoom{
     position: absolute;
     top: 0;
