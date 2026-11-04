@@ -12,6 +12,7 @@
 .hero{
     padding-top: 147px;
     text-align: center;
+    position: absolute;
 }
 
 .hero__title{
@@ -64,7 +65,7 @@
     display: block;
     position: absolute;
     top: 0px;
-    left: 215px;
+    left: 213px;
 }
 
 .animationRunningText{
