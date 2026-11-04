@@ -29,6 +29,10 @@
     font-size: 16px;
 }
 
+.img{
+    position: relative;
+}
+
 .img__bigBoom{
     display: none;
 }
@@ -60,7 +64,8 @@
     display: block;
     position: absolute;
     top: 0px;
-    left: 215px;
+    float: right;
+    margin-right: 0;
 }
 
 .animationRunningText{

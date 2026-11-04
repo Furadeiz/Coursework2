@@ -77,10 +77,15 @@ display: flex;
     height: 36px;
 }
 
+.img{
+    position: relative;
+}
+
 .img__bigBoom{
     position: absolute;
     top: 0;
-    left: 676px;
+    float: right;
+    margin-right: 0;
     height: 800px;
 }
 .img__star2{
