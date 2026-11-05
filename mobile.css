@@ -58,8 +58,9 @@
 }
 .img__minboom{
     display: block;
-    float: right;
-    margin-right: 0;
+    position: absolute;
+    top: 0px;
+    left: 215px;
 }
 
 .animationRunningText{
